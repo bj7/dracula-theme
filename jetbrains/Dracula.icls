@@ -1,8 +1,9 @@
-<scheme name="Dracula" version="140" parent_scheme="Darcula">
+<scheme name="Dracula" version="142" parent_scheme="Darcula">
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="CONSOLE_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <colors>
     <option name="CARET_COLOR" value="cccccc" />
     <option name="CARET_ROW_COLOR" value="44475a" />
@@ -354,12 +355,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
-    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
-    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="242632" />
@@ -467,9 +462,6 @@
         <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
-    <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
-      <value />
-    </option>
     <option name="KOTLIN_INSTANCE_PROPERTY">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
@@ -491,22 +483,10 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
-      <value />
-    </option>
-    <option name="KOTLIN_SMART_CAST_RECEIVER">
-      <value />
-    </option>
-    <option name="KOTLIN_SMART_CONSTANT">
-      <value />
-    </option>
     <option name="KOTLIN_TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
       </value>
-    </option>
-    <option name="MAKO.SUBSTITUTION">
-      <value />
     </option>
     <option name="MARKDOWN_AUTO_LINK">
       <value>
@@ -551,7 +531,6 @@
         <option name="FOREGROUND" value="50fa7b" />
       </value>
     </option>
-    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="FOREGROUND" value="f1fa8c" />
@@ -635,7 +614,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
@@ -646,7 +624,6 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="PY.STRING.U">
       <value>
         <option name="FOREGROUND" value="f1fa8c" />
@@ -786,9 +763,6 @@
         <option name="FOREGROUND" value="ffb86c" />
       </value>
     </option>
-    <option name="RUBY_LINE_CONTINUATION">
-      <value />
-    </option>
     <option name="RUBY_LOCAL_VAR_ID">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
@@ -804,7 +778,6 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="RUBY_NUMBER" baseAttributes="DEFAULT_NUMBER" />
     <option name="RUBY_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="ff79c6" />
